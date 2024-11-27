@@ -93,7 +93,7 @@ function draw() {
 
 function fetchImages(query) {
   // Make a request to Google Custom Search JSON API
-  let apiKey = 'AIzaSyCHiA3dyUVwocKiWP6exPD7Cigh2MW5Nyk';
+  let apiKey = 'you should use your own API here';
   let cx = 'e30293b16171a499d';
   let url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${encodeURIComponent(query)}&searchType=image`;
  
